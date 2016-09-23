@@ -13,6 +13,8 @@
 		CE4961A71D949DE300DE9C2C /* collector_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE4961A51D949DE300DE9C2C /* collector_app.xcdatamodeld */; };
 		CE4961A91D949DE300DE9C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4961A81D949DE300DE9C2C /* Assets.xcassets */; };
 		CE4961AC1D949DE300DE9C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4961AA1D949DE300DE9C2C /* LaunchScreen.storyboard */; };
+		CE4961B41D94A0EB00DE9C2C /* icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4961B31D94A0EB00DE9C2C /* icon0.png */; };
+		CE4961B61D94A1CA00DE9C2C /* SingleItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4961B51D94A1CA00DE9C2C /* SingleItemVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE4961A81D949DE300DE9C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4961AB1D949DE300DE9C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4961AD1D949DE300DE9C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4961B31D94A0EB00DE9C2C /* icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon0.png; sourceTree = "<group>"; };
+		CE4961B51D94A1CA00DE9C2C /* SingleItemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleItemVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				CE49619E1D949DE300DE9C2C /* AppDelegate.swift */,
 				CE4961A01D949DE300DE9C2C /* ViewController.swift */,
 				CE4961A21D949DE300DE9C2C /* Main.storyboard */,
+				CE4961B51D94A1CA00DE9C2C /* SingleItemVC.swift */,
 				CE4961A81D949DE300DE9C2C /* Assets.xcassets */,
+				CE4961B31D94A0EB00DE9C2C /* icon0.png */,
 				CE4961AA1D949DE300DE9C2C /* LaunchScreen.storyboard */,
 				CE4961AD1D949DE300DE9C2C /* Info.plist */,
 				CE4961A51D949DE300DE9C2C /* collector_app.xcdatamodeld */,
@@ -128,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4961AC1D949DE300DE9C2C /* LaunchScreen.storyboard in Resources */,
+				CE4961B41D94A0EB00DE9C2C /* icon0.png in Resources */,
 				CE4961A91D949DE300DE9C2C /* Assets.xcassets in Resources */,
 				CE4961A41D949DE300DE9C2C /* Main.storyboard in Resources */,
 			);
@@ -143,6 +150,7 @@
 				CE4961A71D949DE300DE9C2C /* collector_app.xcdatamodeld in Sources */,
 				CE4961A11D949DE300DE9C2C /* ViewController.swift in Sources */,
 				CE49619F1D949DE300DE9C2C /* AppDelegate.swift in Sources */,
+				CE4961B61D94A1CA00DE9C2C /* SingleItemVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
